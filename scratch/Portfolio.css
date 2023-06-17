@@ -1,0 +1,221 @@
+nav, #name{
+    height: 50px;
+    width: 90%;
+   display: inline-flex;
+   gap: 20px;
+   margin-top: 10px;
+   margin-left: 60px;
+   
+   border-radius: 10px;
+   padding-left: 5px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+#name{
+   margin-left: 10px;
+   margin-top: 7px;
+   background-color: rgb(68, 86, 128); 
+   border-color: none;
+   width: 80px;
+   height: 30px;
+   padding: 0px 10px;
+}
+
+.navBar{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.page{
+    
+    background-color: rgb(68, 86, 128);
+    width: 70%;
+    border-radius: 10px;  
+    margin-left: 15%;
+}
+
+.body{
+    background-color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#resume{
+    text-decoration: none;
+    background-color: rgb(39, 59, 109);
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-right: 30px;  
+}
+
+h2, #description, #name, #resume{
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.trunk{
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    gap: 70px;  
+}
+
+.header{
+    
+    margin-top: 10px;  
+    background-color: rgb(39, 57, 101); 
+}
+
+hr{
+    color: rgb(203, 177, 143);
+    width: 30px;
+}
+
+.services{
+    text-align: center;
+    filter: contrast(90%);
+    color: aliceblue;
+}
+
+#api, #web, #manual, #analysis, #mobile, #doc{
+    border: 1px solid rgb(48, 70, 124);
+    width: 200px;
+    margin-left: 30px;
+    background-color: rgba(34, 50, 88, 0.903); 
+    border-radius: 5px;
+    color: rgb(210, 210, 232);
+}
+
+.first3{
+    display: flex;
+}
+
+.second3{
+    display: flex;
+}
+
+.testTypes{
+    margin-left: 53px;
+}
+
+h2{
+    margin-top: 30px;  
+}
+
+#description{
+    margin-top: 0px;
+}
+
+.table th{
+    padding-right:15px;   
+}
+
+.lowerPage{
+    background-color: rgb(39, 57, 101); 
+}
+
+header{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+a:hover{
+    color: deeppink;
+}
+
+.footer{
+    background-color: rgb(39, 57, 101);
+    padding: 10px;
+    color: rgb(210, 210, 232);
+    border-radius:10px; 
+    
+}
+.table1, th{
+    text-align: center; 
+    padding-left: 20px;
+    margin-left: 13%;
+       
+}
+
+/* Hire Me */
+
+fieldset{
+    display: grid;
+    gap: 10px;
+    width: 450px;
+    margin-left: 30%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.formTop{
+    margin-left: 45%; 
+    color: aliceblue; 
+}
+
+.form{
+    display: grid;
+}
+
+body{
+    background-color: rgba(42, 60, 107, 0.903);
+}
+
+.submit{
+    width: 100px;
+    margin-left: 180px;
+    border: 0px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.submit:hover{
+    background-color: rgba(42, 60, 107, 0.903); 
+}
+
+.tools{
+    margin-top: 10px;
+}
+
+.text1{
+    width: 200px;
+}
+
+#select{
+    height: 25px;
+    border-color: rgba(42, 60, 107, 0.903); 
+    border-radius: 5px;
+}
+
+#welcome{
+    text-align: center;
+    color: aliceblue;
+}
+#companyName, #email, #EmploymentType{
+    color: rgba(42, 60, 107, 0.903);
+}
+
+.p{
+    color: rgba(42, 60, 107, 0.903); 
+}
+input:hover, select:hover{
+    border: 1.5px solid blue;
+    background-color: #eee;
+}
